@@ -1,0 +1,41 @@
+{
+  "name": "tools-api",
+  "version": "1.0.0",
+  "description": "API for tools-ui",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "lint": "gulp eslint",
+    "test": "gulp test",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NojYerac/tools-api.git"
+  },
+  "license": "Unlicense",
+  "keywords": [],
+  "author": {
+    "name": "Jon Carey",
+    "email": "noj.yerac@gmail.com"
+  },
+  "devDependencies": {
+    "gulp": "~3.*",
+    "gulp-env": "^0.4.0",
+    "gulp-eslint": "~3.*",
+    "gulp-mocha": "~3.*",
+    "mocha": "~3.*",
+    "morgan": "^1.7.0",
+    "sqlite3": "^3.1.4",
+    "should": "~10.*",
+    "supertest": "^2.0.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.*",
+    "cookie-parser": "^1.4.3",
+    "express": "~4.*",
+    "orm": "^3.1.0",
+    "pg": "^6.1.0",
+    "serve-favicon": "^2.3.0"
+  }
+}

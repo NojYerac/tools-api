@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "should": false
+  },
+  "env": {
+    "mocha": true
+  }
+}
